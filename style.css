@@ -1,0 +1,77 @@
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(22, 114, 189);
+    width: 1200px;
+    margin: 30px 30px;
+}
+.bloc input{
+    width: 1000px;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.bloc h1{
+    color: white;
+    margin-left: 854px;
+    font-size: 50px;
+}
+.bloc h3{
+    color: white;
+    font-size: 20px;
+    margin-left: 966px;
+}
+.bloc button{
+    width: 115px;
+    height: 42px;
+    color: white;
+    background-color: rgb(81, 168, 240);
+    border-color: rgb(97, 167, 247);
+    border-radius: 10px;
+    margin-left: 991px;
+}
+
+  ul li.checked {
+    
+    color: black;
+    text-decoration: line-through;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .para{
+    color:grey;
+    font-size: 40px;
+    margin-left: 414px;
+  }
+  .close button{
+    width: 100px;
+    height: 40px;
+
+  }
+  .supp{
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .close{
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+  }
